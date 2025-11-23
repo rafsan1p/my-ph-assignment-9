@@ -142,29 +142,5 @@
     "description": "Therapeutic massage to relieve muscle tension and improve circulation for senior pets.",
     "image": "https://images.unsplash.com/photo-1611003228941-98852ba62227?w=500",
     "category": "Wellness"
-  },
-  {
-    "serviceId": 13,
-    "serviceName": "Pet Swimming & Hydrotherapy",
-    "providerName": "AquaPaws Center",
-    "providerEmail": "swim@aquapaws.com",
-    "price": 35,
-    "rating": 4.8,
-    "slotsAvailable": 6,
-    "description": "Supervised swimming session with heated pool, great for exercise and rehabilitation.",
-    "image": "https://images.unsplash.com/photo-1544568104-5b7eb8189dd4?w=500",
-    "category": "Exercise"
-  },
-  {
-    "serviceId": 14,
-    "serviceName": "Pet Nutrition Consultation",
-    "providerName": "Healthy Pet Diet",
-    "providerEmail": "consult@healthypetdiet.com",
-    "price": 30,
-    "rating": 4.6,
-    "slotsAvailable": 8,
-    "description": "Personalized diet plan and nutrition advice from certified pet nutritionist.",
-    "image": "https://images.unsplash.com/photo-1625316708582-7c38734be31d?w=500",
-    "category": "Healthcare"
   }
 ]
