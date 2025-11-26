@@ -12,9 +12,15 @@ const Slider = () => {
   return (
     <div>
       <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-        <SwiperSlide><img className="w-full h-[700px] object-cover" src={i1} alt="" /></SwiperSlide>
-        <SwiperSlide><img className="w-full h-[700px] object-cover" src={i2} alt="" /></SwiperSlide>
-        <SwiperSlide><img className="w-full h-[700px] object-cover" src={i3} alt="" /></SwiperSlide>
+        <SwiperSlide>
+          <img className="w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[700px] object-cover" src={i1} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img className="w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[700px] object-cover" src={i2} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img className="w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[700px] object-cover" src={i3} alt="" />
+        </SwiperSlide>
       </Swiper>
     </div>
   );

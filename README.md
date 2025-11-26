@@ -1,16 +1,62 @@
-# React + Vite
+# WarmPaws - Pet Care in Winter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Purpose
+WarmPaws is a simple website for pet owners who want to take care of their pets during winter season. Here you can find different pet care services like winter coats for dogs, grooming services, paw treatment and more. Users can browse services, view details and book appointments easily.
 
-Currently, two official plugins are available:
+## Live URL
+🔗 [Live Website Link](https://rafsan11-pet-care.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Key Features
 
-## React Compiler
+1. **User Authentication**
+   - Users can sign up and login with email/password
+   - Google login option available
+   - Secure authentication with Firebase
+   - Profile update feature with name and photo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+2. **Service Browsing**
+   - View all winter pet care services
+   - See popular services on homepage
+   - Each service shows price, rating and available slots
+   - Beautiful card design for easy browsing
 
-## Expanding the ESLint configuration
+3. **Service Details**
+   - Protected route - only logged in users can view details
+   - Complete information about each service
+   - Provider details with contact info
+   - Book service button for appointments
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+4. **Responsive Design**
+   - Works perfectly on mobile phones
+   - Tablet friendly layout
+   - Desktop optimized view
+   - Smooth navigation on all devices
+
+5. **Modern UI/UX**
+   - Clean and simple design
+   - Smooth animations with Framer Motion
+   - Beautiful slider for hero section using Swiper
+   - Easy to use interface
+
+## NPM Packages Used
+
+- **react-router-dom** - For page navigation and routing
+- **firebase** - For user authentication and login system
+- **swiper** - Beautiful slider for homepage hero section
+- **framer-motion** - Smooth animations on service cards
+- **react-icons** - Icons used throughout the website
+- **react-hot-toast** - Toast notifications for success/error messages
+
+## Technologies Used
+- React.js
+- Firebase Authentication
+- Tailwind CSS
+- DaisyUI
+- JavaScript (ES6+)
+
+
+## Contact
+For any questions or suggestions, feel free to reach out!
+
+---
+Made with ❤️ for pet lovers
